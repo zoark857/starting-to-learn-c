@@ -18,19 +18,5 @@ int main(){
     b = c % a;
     printf("%d", b);
     
-    a++;
-    printf("%d", a);
-    b--;
-    printf("%d", b);
-    a += 3;
-    printf("%d", a);
-    b -= 2;
-    printf("%d", b);
-    c/2;
-    printf("%d", c);
-    c*2; 
-    printf("%d", c);
-
-
-    return 0;
+ return 0;
 }

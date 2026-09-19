@@ -29,9 +29,9 @@ float num4 = -19.99;
 float num5 = -20.01;
 float num6 = 21.3;
 
-printf("%.2f\n", num4);
-printf("%.2f\n", num5);
-printf("%.2f\n", num6);
+printf("%_.2f\n", num4);
+printf("%-.2f\n", num5);
+printf("%-.2f\n", num6);
     
     
     
