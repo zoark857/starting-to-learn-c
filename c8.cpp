@@ -21,7 +21,6 @@ int main(){
     total = price * quantity;
     
     printf("you have bought %d %s:", quantity, item);
-    item[strlen(item) - 1] = '\0'; // to remove the newline character from the string //
 
     printf("%c%.2f\n", currency, total);
 
