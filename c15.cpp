@@ -4,6 +4,7 @@
 int main(){
 
     bool is_student = true;
+    
 
     if(is_student){
         printf("I am a student\n");
