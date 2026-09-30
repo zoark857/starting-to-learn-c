@@ -28,7 +28,7 @@ int main(){
         printf("Weight in Kilograms: %.2f\n", kilograms);
     }
     else{
-        printf("Invalid choice");
+        printf("Invalid choice\n");
     };
 
     return 0;
