@@ -6,7 +6,7 @@ int main(){
 
     int DayOfTheWeek = 1;
     if(DayOfTheWeek == 1){
-        printf("today is monday");}
+        printf("Today is monday");}
     else if(DayOfTheWeek == 2){
         printf("Today is tuesday");
     }
