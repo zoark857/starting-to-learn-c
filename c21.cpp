@@ -24,7 +24,7 @@ int main(){
 else{
 printf("The senior discount is 20%\n");
 }
-printf("The price is:%.2f", price);
+printf("The price is:$%.2f", price);
  return 0;
     
 }
