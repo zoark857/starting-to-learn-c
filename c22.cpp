@@ -16,7 +16,11 @@ case '-': printf("%d", a - b);
     break;
 case '*': printf("%d", a * b);
     break;
-case '/': printf("%d", a / b);
+case '/':
+  if(b == 0){ 
+        printf("invalid input");} 
+   else{
+        printf("%d", a / b);}
     break;
 case '%': printf("%d", a % b);
     break;
